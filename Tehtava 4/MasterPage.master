@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Tehtava_4_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Mukamas Jamk</title>
+    <link href="../CSS/demoSite.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <img src="../App_Data/kovaa koodia.jpg"/>
+        <br />
+        <asp:Menu ID="MainMenu" Orientation="Horizontal" runat="server" CssClass="menu" OnMenuItemClick="MainMenu_MenuItemClick">
+            <Items>
+                <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
+                <asp:MenuItem Text="Salesan leffat" Value="Salesa"></asp:MenuItem>
+                <asp:MenuItem Text="RSS" Value="RSS"></asp:MenuItem>
+                <asp:MenuItem Text="Contact" Value="Contact"></asp:MenuItem>
+                <asp:MenuItem Text="About" Value="About"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

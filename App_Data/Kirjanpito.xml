@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kirjanpito xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Merkinta>
+    <username>Richard</username>
+    <date>12.12.2013</date>
+    <time>10:33</time>
+  </Merkinta>
+  <Merkinta>
+    <username>Linus</username>
+    <date>12.12.2013</date>
+    <time>10:36</time>
+  </Merkinta>
+</Kirjanpito>
